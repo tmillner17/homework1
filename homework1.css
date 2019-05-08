@@ -1,20 +1,18 @@
-body {background-image: url("lilypads.png")}
 #top {text-align:right; 
-font-size: 20px;}
-img{ float: left}
+    font-size: 20px;}
+img{ 
+    float: left;}
 h1 {font-family: Georgia, 'Times New Roman', Times, serif}
-.col-left{ 
-    float: left; 
-    display: block;
-    height: 10%;
-    width: 10%;
-}
-.col-right{
-    float: left; 
-    display: block;
+.col-left{  
+    width: 80%;
+    left: 10%;
+    right: 10%;
+    top: 100px;
+    position: absolute;
 }
 .nav{ float: right}
-#about-me {
+
+.about-me {
     background: lightblue;
     border: white;
     width: 80%;
@@ -24,5 +22,35 @@ h1 {font-family: Georgia, 'Times New Roman', Times, serif}
     top: 100px;
 }
 .page-title {
-    display: inline
+    display: inline;
+}
+.footer{ 
+position: fixed;
+left: 0;
+bottom: 0;
+width: 100%;
+border-top: solid 5px white;
+background-color: grey;
+color: blue;
+text-align: center;
+line-height: 20px;
+height: auto; 
+}
+.body{ background: white;}
+.container{
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+}
+.text-block{
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    background-color: blue;
+    color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.pics{
+
 }
