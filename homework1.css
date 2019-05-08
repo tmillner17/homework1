@@ -2,52 +2,77 @@
     font-size: 20px;}
 img{ 
     float: left;}
-h1 {font-family: Georgia, 'Times New Roman', Times, serif}
-.col-left{  
-    width: 80%;
-    left: 10%;
-    right: 10%;
-    top: 100px;
-    position: absolute;
+h1 {font-family: Georgia, 'Times New Roman', Times, serif
 }
-.nav{ float: right}
+
+.nav{ float: right;
+    word-spacing: 4px}
 
 .about-me {
     background: lightblue;
     border: white;
-    width: 80%;
+    max-width: 800px;
     position: absolute;
-    left: 10%;
+    left: 15%;
     right:10%;
     top: 100px;
+    bottom: auto;
 }
 .page-title {
     display: inline;
 }
-.footer{ 
-position: fixed;
+.footer{
+position: relative;
 left: 0;
 bottom: 0;
-width: 100%;
+max-width: 960px;
 border-top: solid 5px white;
 background-color: grey;
 color: blue;
 text-align: center;
 line-height: 20px;
-height: auto; 
+
 }
-.body{ background: white;}
+.body{ background: white;
+}
+
 .container{
-    position: relative;
-    font-family: Arial, Helvetica, sans-serif;
-    display: inline-block;
-}
-.text-block{
     position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    bottom: 8px;
+    left: 16px;
+}
+
+.text-block{
+    position: relative;
     bottom: 15px;
     right: 15px;
     background-color: blue;
     color: white;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.nav-wrap{
+    max-width: 960px;
+    margin: 0 auto;
+}
+.content-wrapper {
+    max-width: 800px;
+    margin: 0 auto;
+    display: inline;
+}
+.textbox {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px
+}
+#message {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 50px;
+}
+.body{
+    background-image: url("lilypads.png")
 }
