@@ -22,6 +22,7 @@ h1 {font-family: Georgia, 'Times New Roman', Times, serif
     display: inline;
 }
 .footer{
+    
 position: relative;
 left: 0;
 bottom: 0;
@@ -69,10 +70,13 @@ line-height: 20px;
     background-image: url("lilypads.png")
 }
 
-.portfolio-wrapper::after {
+.portfolio-wrapper {
     content: "";
     clear: both;
     display: table;
+    left: 15%;
+    right:15%;
+    bottom: 0 auto;
 }
 .col-right{
     float: right;
